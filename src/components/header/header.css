@@ -1,0 +1,44 @@
+header {
+  padding: 20px 40px;
+  background: #9336b4;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  width: 100%;
+}
+
+.headerTitle {
+  color: white;
+}
+
+.createbtn-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.createbtn {
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  padding: 10px;
+  font-size: 15px;
+  border: 2px solid white;
+  width: 100px;
+  transition: ease-in-out 0.3s;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 25px;
+}
+
+.addIcon {
+  width: 30px;
+  height: 30px;
+  color: white;
+  cursor: pointer;
+}
+
+.createbtn:hover {
+  background-color: #ffe79b;
+  border: 2px solid #9336b4;
+  color: black;
+}
